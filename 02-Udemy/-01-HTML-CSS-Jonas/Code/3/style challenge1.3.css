@@ -1,0 +1,92 @@
+h2,
+h3,
+p {
+  font-family: sans-serif;
+}
+h2,
+h3,
+#dev {
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  background-color: rgb(232, 236, 235);
+  padding: 15px;
+  margin: 0;
+}
+h3 {
+  font-size: 40;
+}
+p {
+  font-size: 20;
+}
+#dev {
+  color: rgb(160, 165, 165);
+  font-weight: bold;
+}
+.slide {
+  border: 5px solid black;
+  margin: 50px auto;
+}
+.lis1 {
+  list-style: square;
+}
+a:link {
+  color: #000;
+}
+a:visited {
+  color: rgb(17, 17, 17);
+}
+a:hover {
+  font-weight: bold;
+  text-decoration: none;
+}
+/* button {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+button:hover {
+  background-color: rgb(253, 253, 253);
+  color: rgb(0, 0, 0);
+  
+} */
+.update {
+  background-color: #000;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 100%;
+  padding: 15px;
+  border-top: 5px solid rgb(13, 13, 14);
+}
+.update:hover {
+  color: black;
+  background-color: white;
+}
+.center {
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+h2 {
+  position: relative;
+}
+h2::before {
+  content: "SALE";
+  background-color: red;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  position: absolute;
+  top: -20px;
+  left: -35px;
+  padding: 5px 10px;
+  color: white;
+}
+.color {
+  letter-spacing: 15px;
+}

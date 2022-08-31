@@ -1,0 +1,256 @@
+/* (لوعايزة اطيق حاجه علي كل المشروع شكلها مش لطيف) */
+/* * {
+   border-bottom: 5px solid rgb(100, 200, 233);
+  margin: 0;
+  padding: 0;
+}*/
+body {
+  /* background-color: rgb(17, 17, 17);*/
+  border-top: 5px solid rgb(100, 200, 233);
+  /* border-bottom: 5px solid rgb(100, 200, 233);
+   margin: 0; */
+  position: relative;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+li,
+header p,
+article header p {
+  font-family: sans-serif;
+  color: #444;
+}
+h1,
+h2,
+h3,
+h3,
+h4,
+h5 {
+  color: rgb(93, 197, 238);
+  margin-left: 15px;
+}
+
+h1 {
+  font-size: 38px;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: rgb(2, 14, 19);
+  font-size: 30px;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+h4 {
+  font-size: 28px;
+
+  text-transform: uppercase;
+  text-align: center;
+  /*border-top: 5px solid rgb(100, 200, 233);
+  border-bottom: 5px solid rgb(100, 200, 233);*/
+}
+h5 {
+  font-size: 21px;
+}
+p {
+  font-size: 22px;
+
+  line-height: 1.5;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  /* display: inline; */
+}
+ul,
+ol {
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+li {
+  font-size: 20px;
+  margin-bottom: 10px;
+  /* display: inline; */
+}
+li:first-child {
+  font-weight: bold;
+}
+li:last-child {
+  font-style: italic;
+  margin-bottom: 0;
+}
+/* footer p { 
+  font-size: 16px;
+}*/
+nav {
+  font-size: 18px;
+}
+
+header p {
+  font-size: 18px;
+}
+/* article header p {
+  font-style: italic;
+}*/
+#author {
+  font-style: italic;
+
+  font-size: 18px;
+}
+#copyright {
+  font-size: 16px;
+}
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+/*ul {
+  list-style: none;
+}
+*/
+.noone {
+  list-style: none;
+}
+#back {
+  border-top: none;
+}
+.headerclasses {
+  background-color: rgb(229, 249, 250);
+  /* padding: 20px;
+  padding-right: 40px;
+  padding-left: 40px; */
+  padding: 20px 40px;
+  margin-bottom: 60px;
+  border-top: 5px solid rgb(100, 200, 233);
+  /*height: 80px;*/
+  /* position: relative; */
+}
+.slide {
+  background-color: rgba(245, 251, 252, 0.918);
+  border-top: 5px solid rgb(100, 200, 233);
+  border-bottom: 5px solid rgb(100, 200, 233);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* padding: 50px 0; */
+  width: 50%;
+}
+.post-img {
+  width: 100%;
+  height: auto;
+  /* margin: 100px;(لما بتتحط بتلغي العرض والطول) */
+}
+.center {
+  width: 800px;
+  /* margin-right: auto;
+  margin-left: auto; */
+  margin: 0 auto;
+  /* position: relative; */
+}
+/*.first-li {
+  font-weight: bold;
+}*/
+
+/*
+li:nth-child(odd) {
+  color: rgb(108, 184, 219);
+}
+li:nth-child(even) {
+  color: rgb(108, 184, 219);
+}
+((Misconception: this won't work!))
+article p:last-child {
+  color: rgb(4, 137, 245);
+}*/
+a:link {
+  color: rgb(241, 41, 41);
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(238, 4, 4);
+}
+a:hover {
+  color: rgb(238, 77, 184);
+  font-weight: bold;
+  text-decoration: underline /*wavy */ dotted rebeccapurple;
+}
+a:active {
+  background-color: rgb(218, 205, 205);
+  font-style: italic;
+}
+nav a:link {
+  /*  background-color: rgba(211, 226, 231, 0.877);
+  margin: 20px;
+  padding: 20px;
+  display: block; */
+  margin-top: 10pk;
+  margin-right: 30px;
+  display: inline-block;
+}
+nav a:link:last-child {
+  margin-right: 0;
+}
+#mystory {
+  border-top: 5px solid rgb(100, 200, 233);
+  border-bottom: 5px solid rgb(100, 200, 233);
+}
+button {
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+  position: absolute;
+  /* top: 50px;
+  left: 50px; */
+  bottom: 50px;
+  right: 50px;
+}
+h2::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+h4 + p::first-line {
+  color: blueviolet;
+}
+h2 {
+  position: relative;
+}
+h2::after {
+  content: "go";
+  background-color: rgb(146, 87, 201);
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  position: absolute;
+  padding: 5px 25px;
+  top: -50px;
+  right: -40px;
+}
+nav {
+  text-align: center;
+}
+/*lvha(لتذكر كل ما له علاقه بالروابط)*/
+/*Resolving conflicts
+#copyright {
+  color: red;
+}
+
+.copyright {
+  color: blue;
+}
+.text {
+  color: rgb(252, 235, 7);
+}
+footer p {
+  color: rgb(4, 247, 45) !important;
+}
+(flooter p اقل واحد اهمية فمش بيطبق عليه لو عايزة اطبق عليه اول حاجه اكتب جنبه!important"الافضل مستخدمهاش")(.textو.copyالاتنين بنفس الاهمية بس اخذنا اللي اتكتب في الاخر)(اول حد بيتاخذ هوidلانه اخص واحد)
+nav a :link,
+nav p {
+  font-size:18px;
+}
+*/

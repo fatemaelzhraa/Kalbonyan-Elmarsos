@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+h2,
+h3,
+p {
+  font-family: sans-serif;
+}
+h2,
+h3,
+#dev {
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  background-color: rgb(232, 236, 235);
+  padding: 15px;
+  margin: 0;
+  grid-column: 1/-1;
+}
+h3 {
+  font-size: 40;
+}
+p {
+  font-size: 20;
+}
+.onefex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+#dev {
+  color: rgb(160, 165, 165);
+  font-weight: bold;
+  text-align: right;
+  text-transform: uppercase;
+}
+.price {
+  font-size: 24px;
+}
+.slide {
+  /* border: 8px solid rgb(7, 7, 7); */
+  margin: 80px auto;
+}
+.lis1 {
+  list-style: square;
+}
+.up {
+  text-align: right;
+}
+a:link {
+  color: #000;
+}
+a:visited {
+  color: rgb(17, 17, 17);
+}
+a:hover {
+  font-weight: bold;
+  text-decoration: none;
+}
+/* button {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+button:hover {
+  background-color: rgb(253, 253, 253);
+  color: rgb(0, 0, 0);
+  
+} */
+.update {
+  background-color: #000;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 100%;
+  padding: 5px;
+  border-top: 8px solid rgb(13, 13, 14);
+  grid-column: 1/-1;
+}
+.update:hover {
+  color: black;
+  background-color: white;
+}
+.center {
+  width: 800px;
+
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  border: 4px solid black;
+  display: grid;
+  grid-template-columns: 150px 1fr 1fr;
+  column-gap: 40px;
+}
+/* .contan {
+} */
+h2 {
+  position: relative;
+}
+h2::before {
+  content: "SALE";
+  background-color: red;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  position: absolute;
+  top: -20px;
+  left: -35px;
+  padding: 5px 10px;
+  color: white;
+}
+.color {
+  letter-spacing: 15px;
+}
+.one-img {
+  margin-left: 0;
+}
+article {
+  width: auto;
+  height: auto;
+}
+
+/* .text {
+} */
+.one {
+  /* width: 280px; */
+  padding-top: 5px;
+  flex: 1;
+}
+.tow {
+  flex: 1;
+  /* width: 280px; */
+}
