@@ -82,7 +82,7 @@
 ### Quotes app(S20)
 
 - [Project-code](./Projects/quotes-app)
-- [Live Demo]()
+- [Live Demo](https://react-ce196.web.app/quotes)
 
 ### Authentication-page(S22)
 
