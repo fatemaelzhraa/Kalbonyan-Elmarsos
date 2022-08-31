@@ -22,7 +22,7 @@
 <br/>
 
 - [Section 6 Project Live Demo](https://react6-7c0f6.web.app/)
-- [Section 7 Project Live Demo]()
+- [Section 7 Project Live Demo](https://react7-755ea.web.app/)
 
 ### Section 8-9 Project
 
