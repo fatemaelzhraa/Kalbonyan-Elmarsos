@@ -1,22 +1,23 @@
 {
-  "name": "17",
+  "name": "forkifyzhraa",
   "version": "1.0.0",
-  "description": "",
+  "description": "Recipe application",
+  "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
-  "author": "",
+  "author": "fatemaelzhraa A",
   "license": "ISC",
-  "dependencies": {
-    "browserlist": "^1.0.1",
-    "core-js": "^3.23.5",
-    "leaflet": "^1.8.0",
-    "lodash-es": "^4.17.21",
-    "regenerator-runtime": "^0.13.9"
-  },
   "devDependencies": {
-    "parcel": "^2.6.2"
+    "@parcel/transformer-sass": "^2.6.2",
+    "parcel": "^2.0.0-rc.0"
   },
-  "browserslist": "ie 9"
+  "dependencies": {
+    "core-js": "^3.23.5",
+    "fractional": "^1.0.0",
+    "global": "^4.4.0",
+    "regenerator-runtime": "^0.13.9",
+    "surge": "^0.23.1"
+  }
 }
