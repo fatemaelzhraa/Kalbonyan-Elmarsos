@@ -97,7 +97,7 @@
 ### Animation-app (S24)
 
 - [Project-code](./Projects/animation-app)
-- [Live Demo]()
+- [Live Demo](https://react24-7ec8a.web.app/)
 
 ### Products-app(S25)
 
