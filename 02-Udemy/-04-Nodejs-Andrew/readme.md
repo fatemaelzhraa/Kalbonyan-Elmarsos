@@ -10,7 +10,7 @@
 - [Live Demo](https://weather-app-zhraa-klbonyan.herokuapp.com/)
 ### Chat App
 - [Project-code](./Projects/Chat-App)
-- [Live Demo]()
+- [Live Demo](https://chat-app-zhraa-klbonyan.herokuapp.com/)
 
 ---
 ## Code
@@ -19,5 +19,5 @@
 ---
 [Course-Link](https://www.udemy.com/course/the-complete-nodejs-developer-course-2/)<br>
 
-![Certificate](https://via.placeholder.com/468x300?text=Certificate+Here)
+![Certificate]![image](https://user-images.githubusercontent.com/109369193/189245072-d5c154b5-d34a-4a23-9287-9d5ffd4a767b.png)
 
