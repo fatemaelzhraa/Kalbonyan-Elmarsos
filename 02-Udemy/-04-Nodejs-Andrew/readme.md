@@ -2,7 +2,7 @@
 ## Projects
 
 ### Notes App
-- [Project-code](./Projects/Notes-App)
+- [Project-code](./Projects/notes-App)
 ### Task Manager API
 - [Project-code](./Projects/Task-Manager-API)
 ### Weather App
