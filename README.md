@@ -80,9 +80,9 @@
 - [x] `Done` - 18 - [Serverless Stack (SST)](04-Serverless-Stack-Project/)
 - - - -
 # Portfolio
-![0%](https://progress-bar.dev/0/?title=Done)
-- [ ] `Done` - 19 - [Portfolio]( )
+![100%](https://progress-bar.dev/100/?title=Done)
+- [x] `Done` - 19 - [Portfolio]( )
 # CV
-![0%](https://progress-bar.dev/0/?title=Done)
-- [ ] `Done` - 20 - [CV](/CV/ )
+![100%](https://progress-bar.dev/100/?title=Done)
+- [x] `Done` - 20 - [CV](/CV/ )
 
