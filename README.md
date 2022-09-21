@@ -84,5 +84,5 @@
 - [ ] `Done` - 19 - [Portfolio]( )
 # CV
 ![0%](https://progress-bar.dev/0/?title=Done)
-- [ ] `Done` - 19 - [cv](/CV/ )
+- [ ] `Done` - 20 - [cv](/CV/ )
 
