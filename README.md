@@ -81,7 +81,7 @@
 - - - -
 # Portfolio
 ![100%](https://progress-bar.dev/100/?title=Done)
-- [x] `Done` - 19 - [Portfolio]( )
+- [x] `Done` - 19 - [Portfolio](/05-Portfolio/ )
 # CV
 ![100%](https://progress-bar.dev/100/?title=Done)
 - [x] `Done` - 20 - [CV](/CV/ )
